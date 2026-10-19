@@ -1,0 +1,14 @@
+{
+  "name": "vue-teleport-hydration-repro",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Repro: empty <Teleport to=\"body\"> in SSR (no anchors in <body>) makes client hydration remove #app — Vue >= 3.5.0",
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "dependencies": {
+    "vue": "3.5.44",
+    "@vue/server-renderer": "3.5.44"
+  }
+}
